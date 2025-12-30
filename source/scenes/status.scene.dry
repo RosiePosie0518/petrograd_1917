@@ -405,8 +405,8 @@ title: Defense
 
 Northern Front: [+ northern_front_soldiers +] divisions
 {!</br>!}[+ northern_progress : war_progress +]
-Northern Russian Strength: [+ northern_front_soldiers*morale*discipline*Math.pow(supply_quality, 1.5) +]
-Northern Central Powers Strength: [+ northwestern_enemy_soldiers*northwestern_enemy_morale*Math.pow(northwestern_enemy_supply_quality , 1.5)*(1+northwestern_enemy_defense_bonus/2) +]
+{!</br>!}Northern Russian Strength: [+ northern_front_soldiers*morale*discipline*Math.pow(supply_quality, 1.5) +]
+{!</br>!}Northern Central Powers Strength: [+ northwestern_enemy_soldiers*northwestern_enemy_morale*Math.pow(northwestern_enemy_supply_quality , 1.5)*(1+northwestern_enemy_defense_bonus/2) +]
 Western Front: [+ western_front_soldiers +] divisions
 {!</br>!}[+ western_progress : war_progress +]
 
